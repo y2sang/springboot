@@ -1,5 +1,6 @@
 package com.sang2.sprintboot.dto;
 
+import com.sang2.sprintboot.web.dto.HelloResponseDto;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,4 +1,4 @@
-package com.sang2.sprintboot.dto;
+package com.sang2.sprintboot.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
