@@ -1,5 +1,6 @@
 package com.sang2.sprintboot.domain.posts;
 
+import com.sang2.sprintboot.web.dto.PostsRequestDto;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,5 +28,11 @@ public class Posts {
         this.title = title;
         this.content = content;
         this.author = author;
+    }
+
+    public void update(PostsRequestDto postsRequestDto) {
+        this.title = postsRequestDto.getTitle();
+        this.content = postsRequestDto.getContent();
+
     }
 }

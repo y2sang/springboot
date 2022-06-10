@@ -7,13 +7,13 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public class PostsSaveRequestDto {
+public class PostsRequestDto {
     private String title;
     private String content;
     private String author;
 
     @Builder
-    public PostsSaveRequestDto(String title, String content, String author) {
+    public PostsRequestDto(String title, String content, String author) {
         this.title = title;
         this.content = content;
         this.author = author;
